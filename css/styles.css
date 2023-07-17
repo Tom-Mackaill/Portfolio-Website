@@ -1,0 +1,107 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf9f6;
+}
+
+.container {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    cursor: pointer;
+    margin: 30px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.logo:hover {
+    color: #ff5ea2
+}
+
+.container i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container i:hover {
+    font-size: 30px;
+    color: #ff5ea2;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #ff5ea2;
+    font-size: 18px;
+}
+/*End of header styles*/
+
+.main-container {
+    width: 100%;
+    position: relative;
+    top: 200px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.main-text {
+    margin-left: 130px;
+}
+
+.main-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.main-text h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main-text p {
+    padding-bottom: 10px;
+}
+
+.main-text a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 18px;
+    transition: 0.5s;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.main-text a:hover {
+    font-size: 22px;
+    color: #ff5ea2;
+}
+
