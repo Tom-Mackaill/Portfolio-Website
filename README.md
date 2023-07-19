@@ -1,0 +1,1 @@
+In this project I created a portfolio website. The website is responsive and 
